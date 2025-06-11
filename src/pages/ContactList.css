@@ -1,0 +1,29 @@
+.contact-list {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; 
+}
+
+.contact-item {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding: 1.5rem; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  width: 100%; 
+}
+
+
+
+.contact-item a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
